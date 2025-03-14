@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Footer = () => {
   return (
     <footer className="bg-gray-900">
@@ -14,9 +16,14 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Right side - Copyright */}
-          <div className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} CRPC. All rights reserved.
+          {/* Right side - Copyright and Terms link */}
+          <div className="flex flex-col items-center md:items-end">
+            <Link href="/terms" className="text-gray-400 hover:text-white text-sm mb-2">
+              Terms &amp; Conditions
+            </Link>
+            <div className="text-gray-400 text-sm">
+              © {new Date().getFullYear()} CRPC. All rights reserved.
+            </div>
           </div>
         </div>
       </div>

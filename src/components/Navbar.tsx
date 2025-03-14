@@ -33,9 +33,6 @@ const Navbar = () => {
             <Link href="/certified" className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-600">
               Certified Remanufacturers
             </Link>
-            <Link href="/terms" className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-600">
-              Terms & Conditions
-            </Link>
           </div>
           
           {/* Mobile menu button */}
@@ -84,9 +81,6 @@ const Navbar = () => {
           </Link>
           <Link href="/certified" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-600">
             Certified Remanufacturers
-          </Link>
-          <Link href="/terms" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-600">
-            Terms & Conditions
           </Link>
         </div>
       </div>
