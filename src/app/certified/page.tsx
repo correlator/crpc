@@ -109,7 +109,7 @@ export default function CertifiedPage() {
           <ul className="list-disc pl-5 text-gray-700 space-y-2">
             <li>Site verification of how used OEM printer cartridges are obtained</li>
             <li>Site verification of remanufacturing production facility</li>
-            <li>Verification of a recycling "Take Back Program" to help reduce used printer cartridges from ending up in landfills</li>
+            <li>Verification of a recycling &quotTake Back Program&quot to help reduce used printer cartridges from ending up in landfills</li>
           </ul>
         </div>
 
@@ -152,7 +152,7 @@ export default function CertifiedPage() {
           <div className="px-4 py-5 sm:p-6">
             <h3 className="text-lg leading-6 font-medium text-gray-900">Are you a remanufacturer?</h3>
             <div className="mt-2 max-w-xl text-sm text-gray-500">
-              <p>If you're a printer cartridge remanufacturer interested in becoming CRPC certified, we'd love to hear from you.</p>
+              <p>If you&apos;re a printer cartridge remanufacturer interested in becoming CRPC certified, we&apos;d love to hear from you.</p>
             </div>
             <div className="mt-5">
               <a

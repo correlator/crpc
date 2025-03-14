@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export const metadata = {
   title: 'About CRPC - Certified Remanufactured Printer Cartridges',
   description: 'Learn about the CRPC initiative and how it helps identify genuine remanufactured printer cartridges.',
@@ -75,7 +77,7 @@ export default function AboutPage() {
             <ul className="text-gray-900 list-disc pl-5">
               <li>Site verification of of how OEM cartridges are obtained</li>
               <li>Site verification of Refmanufacturing production facility</li>
-              <li>Verification of a recycling "Take Back Program" to help reduce used printer cartridges in landfills</li>
+              <li>Verification of a recycling &quot;Take Back Program&quot; to help reduce used printer cartridges in landfills</li>
             </ul>
           </div>
         </div>
@@ -107,17 +109,19 @@ export default function AboutPage() {
             <h2 className="text-gray-900 text-3xl font-bold text-center mb-8">Leadership</h2>
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="md:w-1/3 flex justify-center">
-                <img
+                <Image
                   src="/crpc/images/scott_c.jpeg"
                   alt="Scott Hoch"
-                  className="w-64 h-64 rounded-full object-cover"
+                  width={256}
+                  height={256}
+                  className="rounded-full object-cover"
                 />
               </div>
               <div className="md:w-2/3">
                 <h3 className="text-gray-900 text-2xl font-bold">Scott Hoch</h3>
-                <p className="text-gray-900 font-semibold">Founder & Executive Director</p>
+                <p className="text-gray-900 font-semibold">Founder &amp; Executive Director</p>
                 <p className="text-gray-900 mt-4">
-                  Scott Hoch, the visionary behind the Certified Remanufactured Printer Cartridge (CRPC) initiative, brings a wealth of expertise and passion to the mission. With a Master's degree in Experimental Physics from Yale University, Scott combines a deep scientific foundation with over 13 years of experience as a seasoned CTO and technology leader building everything from talking coffee machines to internet of things factory monitoring systems. When he discovered the inefficiencies and chaos plaguing the print cartridge remanufacturing industry, Scott felt compelled to act. He has since spearheaded innovative efforts to streamline chip acquisition for remanufacturers and remains a dedicated advocate for the community. Driven by a commitment to sustainability and economic vitality, Scott aims to leave behind a healthier planet and a thriving U.S. workforce for his children and future generations.
+                  Scott Hoch, the visionary behind the Certified Remanufactured Printer Cartridge (CRPC) initiative, brings a wealth of expertise and passion to the mission. With a Master&apos;s degree in Experimental Physics from Yale University, Scott combines a deep scientific foundation with over 13 years of experience as a seasoned CTO and technology leader building everything from talking coffee machines to internet of things factory monitoring systems. When he discovered the inefficiencies and chaos plaguing the print cartridge remanufacturing industry, Scott felt compelled to act. He has since spearheaded innovative efforts to streamline chip acquisition for remanufacturers and remains a dedicated advocate for the community. Driven by a commitment to sustainability and economic vitality, Scott aims to leave behind a healthier planet and a thriving U.S. workforce for his children and future generations.
                 </p>
               </div>
             </div>
