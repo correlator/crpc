@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export const metadata = {
   title: 'About CRPC - Certified Remanufactured Printer Cartridges',
   description: 'Learn about the CRPC initiative and how it helps identify genuine remanufactured printer cartridges.',
@@ -107,17 +105,8 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose prose-blue prose-lg mx-auto text-gray-900">
             <h2 className="text-gray-900 text-3xl font-bold text-center mb-8">Leadership</h2>
-            <div className="flex flex-col md:flex-row items-center gap-8">
-              <div className="md:w-1/3 flex justify-center">
-                <Image
-                  src="/crpc/images/scott_c.jpeg"
-                  alt="Scott Hoch"
-                  width={256}
-                  height={256}
-                  className="rounded-full object-cover"
-                />
-              </div>
-              <div className="md:w-2/3">
+            <div className="flex flex-col items-center">
+              <div className="w-full">
                 <h3 className="text-gray-900 text-2xl font-bold">Scott Hoch</h3>
                 <p className="text-gray-900 font-semibold">Founder &amp; Executive Director</p>
                 <p className="text-gray-900 mt-4">
