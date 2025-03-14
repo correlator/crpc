@@ -52,7 +52,7 @@ const Hero = () => {
           {/* CRPC Badge Image */}
           <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
             <Image
-              src="/images/crpc_badge.png"
+              src="/crpc/images/crpc_badge.png"
               alt="CRPC Certification Badge"
               fill
               style={{ objectFit: 'contain' }}

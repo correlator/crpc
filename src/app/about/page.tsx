@@ -108,7 +108,7 @@ export default function AboutPage() {
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="md:w-1/3 flex justify-center">
                 <img
-                  src="/images/scott_c.jpeg"
+                  src="/crpc/images/scott_c.jpeg"
                   alt="Scott Hoch"
                   className="w-64 h-64 rounded-full object-cover"
                 />

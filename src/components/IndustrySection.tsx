@@ -23,7 +23,7 @@ const IndustrySection = () => {
                     <div className="h-96 rounded-lg overflow-hidden">
                       {/* Cartridge waste image */}
                       <Image
-                        src="/images/cartridges.png"
+                        src="/crpc/images/cartridges.png"
                         alt="Printer cartridge waste"
                         width={600}
                         height={400}
