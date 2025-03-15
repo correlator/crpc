@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const WasteSection = () => {
   return (
@@ -40,7 +41,7 @@ const WasteSection = () => {
                 Printer cartridges take over <span className="font-semibold text-slate-700">450+ years</span> to decompose in landfills, creating a significant environmental burden. With <span className="font-semibold text-slate-700">375+ million</span> cartridges discarded annually, they represent one of the most problematic e-waste categories.
               </p>
               <p className="text-gray-600 mb-4">
-                Each remanufactured cartridge saves approximately <span className="font-semibold text-slate-700">3.5 liters of oil</span> and reduces CO₂ emissions by up to <span className="font-semibold text-slate-700">40%</span> compared to manufacturing new ones.
+                Each remanufactured cartridge saves approximately <span className="font-semibold text-slate-700">0.6 liters of oil</span> and reduces CO₂ emissions by up to <span className="font-semibold text-slate-700">1.8 kg</span> compared to manufacturing new ones. <Link href="/crpc/blog/co2_per_cartridge" className="text-blue-600 hover:text-blue-800 font-medium">Read our detailed analysis</Link> on the environmental benefits of remanufacturing.
               </p>
               <p className="text-gray-600">
                 Remanufacturing these cartridges instead of producing new ones can reduce plastic waste by up to 90% and significantly decrease the carbon footprint associated with printer consumables.
