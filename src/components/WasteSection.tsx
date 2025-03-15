@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const WasteSection = () => {
   return (
     <section className="py-16 bg-slate-100">
@@ -10,6 +12,41 @@ const WasteSection = () => {
           <p className="mt-4 max-w-2xl text-xl text-gray-600 lg:mx-auto">
             Single-use printer cartridges contribute significantly to plastic waste and environmental pollution.
           </p>
+        </div>
+
+        {/* Cartridge waste image and intro text in a balanced layout */}
+        <div className="mt-10 bg-white p-6 rounded-lg shadow-md">
+          <div className="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
+            <div className="relative">
+              <div className="aspect-w-4 aspect-h-3 lg:aspect-none">
+                <div className="h-64 sm:h-72 lg:h-80 rounded-lg overflow-hidden">
+                  <Image
+                    src="/crpc/images/cartridge_waste.png"
+                    alt="Printer cartridge waste in landfills"
+                    width={600}
+                    height={400}
+                    className="w-full h-full object-cover"
+                    priority
+                  />
+                </div>
+              </div>
+              <figcaption className="mt-3 text-sm text-gray-600">
+                Millions of printer cartridges end up in landfills annually
+              </figcaption>
+            </div>
+            <div className="mt-6 lg:mt-0">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">The Environmental Crisis</h3>
+              <p className="text-gray-600 mb-4">
+                Printer cartridges take over <span className="font-semibold text-slate-700">450+ years</span> to decompose in landfills, creating a significant environmental burden. With <span className="font-semibold text-slate-700">375+ million</span> cartridges discarded annually, they represent one of the most problematic e-waste categories.
+              </p>
+              <p className="text-gray-600 mb-4">
+                Each remanufactured cartridge saves approximately <span className="font-semibold text-slate-700">3.5 liters of oil</span> and reduces CO₂ emissions by up to <span className="font-semibold text-slate-700">40%</span> compared to manufacturing new ones.
+              </p>
+              <p className="text-gray-600">
+                Remanufacturing these cartridges instead of producing new ones can reduce plastic waste by up to 90% and significantly decrease the carbon footprint associated with printer consumables.
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="mt-10">
@@ -69,41 +106,6 @@ const WasteSection = () => {
                     <dd className="mt-2 text-base text-gray-600">
                       Remanufacturing cartridges reduces waste by up to 90% and uses significantly fewer resources than producing new ones.
                     </dd>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="mt-10 bg-white overflow-hidden shadow rounded-lg">
-            <div className="px-4 py-5 sm:p-6">
-              <h3 className="text-lg leading-6 font-medium text-gray-900">Environmental Impact Statistics</h3>
-              <div className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
-                <div className="bg-slate-200 overflow-hidden shadow rounded-lg">
-                  <div className="px-4 py-5 sm:p-6 text-center">
-                    <dt className="text-sm font-medium text-gray-600 truncate">Cartridges Discarded Annually</dt>
-                    <dd className="mt-1 text-3xl font-semibold text-slate-700">375M+</dd>
-                  </div>
-                </div>
-
-                <div className="bg-slate-200 overflow-hidden shadow rounded-lg">
-                  <div className="px-4 py-5 sm:p-6 text-center">
-                    <dt className="text-sm font-medium text-gray-600 truncate">Years to Decompose</dt>
-                    <dd className="mt-1 text-3xl font-semibold text-slate-700">450+</dd>
-                  </div>
-                </div>
-
-                <div className="bg-slate-200 overflow-hidden shadow rounded-lg">
-                  <div className="px-4 py-5 sm:p-6 text-center">
-                    <dt className="text-sm font-medium text-gray-600 truncate">Oil Saved Per Cartridge</dt>
-                    <dd className="mt-1 text-3xl font-semibold text-slate-700">3.5L</dd>
-                  </div>
-                </div>
-
-                <div className="bg-slate-200 overflow-hidden shadow rounded-lg">
-                  <div className="px-4 py-5 sm:p-6 text-center">
-                    <dt className="text-sm font-medium text-gray-600 truncate">CO₂ Reduction</dt>
-                    <dd className="mt-1 text-3xl font-semibold text-slate-700">40%</dd>
                   </div>
                 </div>
               </div>

@@ -21,10 +21,10 @@ const IndustrySection = () => {
                 <figure>
                   <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
                     <div className="h-96 rounded-lg overflow-hidden">
-                      {/* Cartridge waste image */}
+                      {/* World Expo image */}
                       <Image
-                        src="/crpc/images/cartridges.png"
-                        alt="Printer cartridge waste"
+                        src="/crpc/images/world_expo.png"
+                        alt="Remanufacturing Industry World Expo"
                         width={600}
                         height={400}
                         className="w-full h-full object-cover"
@@ -33,7 +33,7 @@ const IndustrySection = () => {
                     </div>
                   </div>
                   <figcaption className="mt-3 flex text-sm text-gray-600">
-                    <span className="ml-2">Discarded printer cartridges contributing to environmental waste</span>
+                    <span className="ml-2">Once a thriving $7 billion industry had its own publication, and expo which is now all gone as well as many of the businesses that supported the show due proliferation of generic single-use, and counterfeit cartridges labeled as remanufactured.</span>
                   </figcaption>
                 </figure>
               </div>

@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const ProblemSection = () => {
   return (
     <section className="py-16 bg-gray-100">
@@ -10,6 +12,37 @@ const ProblemSection = () => {
           <p className="mt-4 max-w-2xl text-xl text-gray-600 lg:mx-auto">
             Generic single-use cartridges are often falsely labeled as remanufactured or recyclable products.
           </p>
+        </div>
+
+        {/* False labeling image and explanation */}
+        <div className="mt-10 bg-white p-6 rounded-lg shadow-md">
+          <div className="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
+            <div className="relative">
+              <div className="aspect-w-16 aspect-h-9 lg:aspect-none">
+                <div className="h-64 sm:h-72 lg:h-96 rounded-lg overflow-hidden">
+                  <Image
+                    src="/crpc/images/false_labeling.png"
+                    alt="False labeling on printer cartridge"
+                    width={600}
+                    height={400}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="mt-6 lg:mt-0">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Deceptive Packaging</h3>
+              <p className="text-gray-600 mb-4">
+                This image shows a counterfeit &quot;remanufactured&quot; cartridge, which is actually a generic, single-use product falsely labeled as remanufactured.
+              </p>
+              <p className="text-gray-600 mb-4">
+                Note the misleading symbols, including a crossed-out trash can (suggesting proper disposal) and a recycling symbol, even though the product is not recyclable and lacks instructions for proper recycling.
+              </p>
+              <p className="text-gray-600">
+                This deceptive design misleads consumers into believing they are purchasing a genuine remanufactured and recyclable product, when in fact they are buying a single-use item that contributes to environmental waste.
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="mt-10">
