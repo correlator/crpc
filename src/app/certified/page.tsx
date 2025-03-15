@@ -74,7 +74,7 @@ export default function CertifiedPage() {
           <div className="prose prose-lg mx-auto text-gray-700">
             <h2 className="text-gray-900 text-3xl font-bold text-center mb-6">About Our Certification</h2>
             <p>
-              CRPC certification helps marketplaces comply with regulations and protects consumers from counterfeit products. All listed companies have undergone thorough verification of their processes, facilities, and recycling programs. When you choose a CRPC certified remanufacturer, you're supporting businesses that meet the highest standards in the industry.
+              CRPC certification helps marketplaces comply with regulations and protects consumers from counterfeit products. All listed companies have undergone thorough verification of their processes, facilities, and recycling programs. When you choose a CRPC certified remanufacturer, you&apos;re supporting businesses that meet the highest standards in the industry.
             </p>
           </div>
         </div>
@@ -91,7 +91,7 @@ export default function CertifiedPage() {
             <ul className="list-disc pl-5">
               <li>Site verification of how used OEM printer cartridges are obtained</li>
               <li>Verification of the remanufacturing production facility</li>
-              <li>Verification of a recycling "Take Back Program" to reduce landfill waste</li>
+              <li>Verification of a recycling &quot;Take Back Program&quot; to reduce landfill waste</li>
             </ul>
           </div>
         </div>
