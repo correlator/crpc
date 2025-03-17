@@ -12,7 +12,7 @@ const Footer = () => {
               Powered by the RIA
             </p>
             <p className="text-gray-500 text-sm">
-              Remanufacturing Industry Association
+              Remanufacturing Industry Authority
             </p>
           </div>
 
