@@ -172,6 +172,7 @@ export default function BlogPost() {
           <div className="prose prose-lg mx-auto text-gray-900">
             <h2 className="text-gray-900 text-3xl font-bold text-center mb-8">Key Citations</h2>
             <ul className="text-gray-900 list-disc pl-5">
+              <li><a href="https://energycentral.com/c/ec/ink-waste-environmental-impact-printer-cartridges" className="text-blue-600 hover:underline">Ink Waste: The Environmental Impact of Printer Cartridges</a></li>
               <li><a href="https://www.planetgreenrecycle.com/blogs/news/the-environmental-impact-of-printer-cartridges-a-call-for-responsible-recycling" className="text-blue-600 hover:underline">Planet Green Recycle Environmental Impact</a></li>
               <li><a href="https://www.cloverimaging.com/LCA" className="text-blue-600 hover:underline">Clover Imaging Group LCA Report</a></li>
               <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8587715/" className="text-blue-600 hover:underline">Life-Cycle Assessment of Polypropylene Production</a></li>

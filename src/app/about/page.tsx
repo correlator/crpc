@@ -13,7 +13,7 @@ export default function AboutPage() {
             About CRPC
           </h1>
           <p className="mt-4 max-w-3xl mx-auto text-xl text-gray-300">
-            The Certified Remanufactured Printer Cartridge initiative
+            It's not a Certified Remanufactured Printer Cartridge without the CRPC
           </p>
         </div>
       </div>
