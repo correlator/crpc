@@ -22,7 +22,7 @@ const WasteSection = () => {
               <div className="aspect-w-4 aspect-h-3 lg:aspect-none">
                 <div className="h-64 sm:h-72 lg:h-80 rounded-lg overflow-hidden">
                   <Image
-                    src="/crpc/images/cartridge_waste.png"
+                    src="/images/cartridge_waste.png"
                     alt="Printer cartridge waste in landfills"
                     width={600}
                     height={400}

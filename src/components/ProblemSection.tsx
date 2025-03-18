@@ -21,7 +21,7 @@ const ProblemSection = () => {
               <div className="aspect-w-16 aspect-h-9 lg:aspect-none">
                 <div className="h-64 sm:h-72 lg:h-96 rounded-lg overflow-hidden">
                   <Image
-                    src="/crpc/images/false_labeling.png"
+                    src="/images/false_labeling.png"
                     alt="False labeling on printer cartridge"
                     width={600}
                     height={400}

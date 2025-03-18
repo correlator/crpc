@@ -23,7 +23,7 @@ const IndustrySection = () => {
                     <div className="h-96 rounded-lg overflow-hidden">
                       {/* World Expo image */}
                       <Image
-                        src="/crpc/images/world_expo.png"
+                        src="/images/world_expo.png"
                         alt="Remanufacturing Industry World Expo"
                         width={600}
                         height={400}
