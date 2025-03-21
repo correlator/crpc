@@ -1,3 +1,5 @@
+import BlogPostLayout from '@/components/BlogPostLayout';
+
 export const metadata = {
   title: 'Environmental Benefits of Remanufacturing Print Cartridges',
   description: 'Discover how remanufacturing print cartridges saves CO2 and oil, contributing to sustainability.',
@@ -5,19 +7,11 @@ export const metadata = {
 
 export default function BlogPost() {
   return (
-    <div className="bg-white">
-      {/* Hero section */}
-      <div className="relative bg-gray-800 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl">
-            The Environmental Benefits of Remanufacturing Print Cartridges
-          </h1>
-          <p className="mt-4 max-w-3xl mx-auto text-xl text-gray-300">
-            Discover how choosing remanufactured toner cartridges can significantly reduce CO2 emissions and oil consumption, contributing to a more sustainable future.
-          </p>
-        </div>
-      </div>
-
+    <BlogPostLayout
+      title="The Environmental Benefits of Remanufacturing Print Cartridges"
+      date="March 17, 2024"
+      coverImage="/images/cartridge_waste.png"
+    >
       {/* Introduction section */}
       <div className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -181,6 +175,6 @@ export default function BlogPost() {
           </div>
         </div>
       </div>
-    </div>
+    </BlogPostLayout>
   );
 }
