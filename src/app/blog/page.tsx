@@ -16,6 +16,13 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
+    slug: 'truth-in-labeling',
+    title: 'CRPC to Bring Truth-in-Labeling to Remanufactured Products',
+    description: 'The CRPC launches new certification program to combat false labeling and counterfeit products in the printer cartridge industry.',
+    date: 'March 21, 2024',
+    image: '/images/crpc_badge.png',
+  },
+  {
     slug: 'co2_per_cartridge',
     title: 'The Environmental Benefits of Remanufacturing Print Cartridges',
     description: 'Discover how choosing remanufactured toner cartridges can significantly reduce CO2 emissions and oil consumption.',
