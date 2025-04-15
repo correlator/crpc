@@ -41,7 +41,7 @@ const certifiedRemanufacturers = [
 export default function CertifiedPage() {
   const [searchQuery, setSearchQuery] = useState('');
   // Add the coming soon flag
-  const comingSoon = false;
+  const comingSoon = true;
 
   // Filter companies based on search query
   const filteredCompanies = certifiedRemanufacturers.filter(company =>
