@@ -105,12 +105,20 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose prose-invert prose-lg mx-auto">
             <h2 className="text-white text-3xl font-bold text-center mb-8">Leadership</h2>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center space-y-12">
               <div className="w-full">
                 <h3 className="text-white text-2xl font-bold">Scott Hoch</h3>
                 <p className="text-gray-300 font-semibold">Founder &amp; Executive Director</p>
                 <p className="text-gray-200 mt-4">
-                  Scott Hoch, the visionary behind the Certified Remanufactured Printer Cartridge (CRPC) initiative, brings a wealth of expertise and passion to the mission. With a Master&apos;s degree in Experimental Physics from Yale University, Scott combines a deep scientific foundation with over 13 years of experience as a seasoned CTO and technology leader building everything from talking coffee machines to internet of things factory monitoring systems. When he discovered the inefficiencies and chaos plaguing the print cartridge remanufacturing industry, Scott felt compelled to act. He has since spearheaded innovative efforts to streamline chip acquisition for remanufacturers and remains a dedicated advocate for the community. Driven by a commitment to sustainability and economic vitality, Scott aims to leave behind a healthier planet and a thriving U.S. workforce for his children and future generations.
+                  Scott Hoch brings a wealth of expertise and passion to the CRPC mission. With a Master&apos;s degree in Experimental Physics from Yale University, Scott combines a deep scientific foundation with over 13 years of experience as a seasoned CTO and technology leader building everything from talking coffee machines to internet of things factory monitoring systems. When he discovered the inefficiencies and chaos plaguing the print cartridge remanufacturing industry, Scott felt compelled to act. He has since spearheaded innovative efforts to streamline chip acquisition for remanufacturers and remains a dedicated advocate for the community. Driven by a commitment to sustainability and economic vitality, Scott aims to leave behind a healthier planet and a thriving U.S. workforce for his children and future generations.
+                </p>
+              </div>
+
+              <div className="w-full">
+                <h3 className="text-white text-2xl font-bold">Joseph Bradley</h3>
+                <p className="text-gray-300 font-semibold">Executive Director</p>
+                <p className="text-gray-200 mt-4">
+                  Joseph Bradley brings a wide variety of experience to the CRPC. From setting up manufacturing plants in the building materials industry, to executive positions at technology companies and building companies in advertising and production Joseph enjoys working with talented people omn hard problems. He believes that a level playing field for competition is critically important in business. Ensuring tight, efficient supply chains with good faith participants is arguably the first step. Joseph looks forward to working within CRPC to develop world class qualification processes and monitoring efforts - ensuring that remanufactured printer cartridges can be trusted by customers everywhere.
                 </p>
               </div>
             </div>
