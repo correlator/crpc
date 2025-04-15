@@ -28,10 +28,13 @@ const Navbar = () => {
               Home
             </Link>
             <Link href="/about" className="px-3 py-2 rounded-md text-sm font-medium text-gray-200 hover:text-blue-400">
-              About CRPC
+              About
             </Link>
             <Link href="/certified" className="px-3 py-2 rounded-md text-sm font-medium text-gray-200 hover:text-blue-400">
-              Certified Remanufacturers
+              Certified
+            </Link>
+            <Link href="/violations" className="px-3 py-2 rounded-md text-sm font-medium text-gray-200 hover:text-blue-400">
+              Violations
             </Link>
             <Link href="/blog" className="px-3 py-2 rounded-md text-sm font-medium text-gray-200 hover:text-blue-400">
               Blog
@@ -84,6 +87,9 @@ const Navbar = () => {
           </Link>
           <Link href="/certified" className="block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:text-blue-400">
             Certified Remanufacturers
+          </Link>
+          <Link href="/violations" className="block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:text-blue-400">
+            Violations
           </Link>
           <Link href="/blog" className="block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:text-blue-400">
             Blog

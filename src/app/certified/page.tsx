@@ -5,14 +5,6 @@ import { useState } from 'react';
 // Sample data for certified remanufacturers
 const certifiedRemanufacturers = [
   {
-    id: 1,
-    name: 'Planet Green Recycle',
-    location: 'Los Angeles, CA',
-    website: 'https://www.planetgreenrecycle.com/',
-    certificationDate: 'April 1, 2025',
-    description: 'Remanufacturer of printer cartridges and toner cartridges since 2000.',
-  },
-  {
     id: 2,
     name: 'GreenPrint Remanufacturing',
     location: 'Portland, OR',
@@ -49,7 +41,7 @@ const certifiedRemanufacturers = [
 export default function CertifiedPage() {
   const [searchQuery, setSearchQuery] = useState('');
   // Add the coming soon flag
-  const comingSoon = true;
+  const comingSoon = false;
 
   // Filter companies based on search query
   const filteredCompanies = certifiedRemanufacturers.filter(company =>
