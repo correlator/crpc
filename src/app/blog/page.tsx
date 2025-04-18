@@ -16,6 +16,13 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
+    slug: 'eight_dollar_mistake',
+    title: 'The $8 Mistake That Cost Me My Sanity — And a Whole Lot More',
+    description: 'A cautionary tale about the true cost of counterfeit printer cartridges and why choosing certified remanufactured matters.',
+    date: 'March 21, 2024',
+    image: '/images/printer_says_no.jpg',
+  },
+  {
     slug: 'truth-in-labeling',
     title: 'CRPC to Bring Truth-in-Labeling to Remanufactured Products',
     description: 'The CRPC launches new certification program to combat false labeling and counterfeit products in the printer cartridge industry.',
