@@ -109,16 +109,37 @@ export default function AboutPage() {
               <div className="w-full">
                 <h3 className="text-white text-2xl font-bold">Scott Hoch</h3>
                 <p className="text-gray-300 font-semibold">Founder &amp; Managing Member</p>
-                <p className="text-gray-200 mt-4">
-                  Scott Hoch brings a wealth of expertise and passion to the CRPC mission. With a Master&apos;s degree in Experimental Physics from Yale University, Scott combines a deep scientific foundation with over 13 years of experience as a seasoned CTO and technology leader building everything from talking coffee machines to internet of things factory monitoring systems. When he discovered the inefficiencies and chaos plaguing the print cartridge remanufacturing industry, Scott felt compelled to act. He has since spearheaded innovative efforts to streamline chip acquisition for remanufacturers and remains a dedicated advocate for the community. Driven by a commitment to sustainability and economic vitality, Scott aims to leave behind a healthier planet and a thriving U.S. workforce for his children and future generations.
-                </p>
-              </div>
-
-              <div className="w-full">
+                <p className="text-gray-200 mt-4"> Scott Hoch brings a unique blend of scientific insight and hands-on innovation to CRPC. With a Master's degree in Experimental Physics from Yale University, Scott has spent over 13 years as a CTO and technology leader, developing everything from IoT-enabled factory systems to AI-driven coffee machines. His journey into the print cartridge remanufacturing space began with a deep dive into its operational inefficiencies and lack of transparency—challenges he felt compelled to address. Scott also led the development of early blockchain-based pilots for supply chain traceability, helping to create new levels of accountability. Passionate about sustainability and local industry, he remains focused on building solutions that support a circular economy and a resilient workforce for future generations. </p>
+                <br></br>
                 <h3 className="text-white text-2xl font-bold">Joseph Bradley</h3>
                 <p className="text-gray-300 font-semibold">Founder &amp; Managing Member</p>
-                <p className="text-gray-200 mt-4">
-                  Joseph Bradley brings a wide variety of experience to the CRPC. From setting up manufacturing plants in the building materials industry, to executive positions at technology companies and building companies in advertising and production Joseph enjoys working with talented people omn hard problems. He believes that a level playing field for competition is critically important in business. Ensuring tight, efficient supply chains with good faith participants is arguably the first step. Joseph looks forward to working within CRPC to develop world class qualification processes and monitoring efforts - ensuring that remanufactured printer cartridges can be trusted by customers everywhere.
+
+<p className="text-gray-200 mt-4"> Joseph Bradley brings decades of diverse business experience to CRPC. He has launched and scaled manufacturing operations in the building materials sector, held executive roles in technology firms, and founded successful ventures in advertising and media production. Joseph holds an MBA from the University of Southern California (USC), where he honed his expertise in competitive strategy and operational systems. He played a key role in integrating blockchain technology into supply chains, where he first met Scott. Joseph is a strong believer in fair competition and sees efficient, trusted supply chains as essential to ethical commerce. At CRPC, he is focused on developing rigorous qualification and monitoring standards to help remanufactured products earn—and keep—customer trust. </p> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Contact Information section */}
+      <div className="bg-white py-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="prose prose-lg mx-auto text-gray-700">
+            <h2 className="text-gray-900 text-2xl font-bold text-center mb-6">Contact Us</h2>
+            <div className="text-center space-y-4">
+              <p className="text-lg">
+                For questions about the certification process, please contact:
+              </p>
+              <div className="space-y-2">
+                <p>
+                  <a href="mailto:scott@thecrpc.com" className="text-slate-700 hover:text-slate-900">
+                    scott@thecrpc.com
+                  </a>
+                </p>
+                <p>
+                  <a href="mailto:joseph@thecrpc.com" className="text-slate-700 hover:text-slate-900">
+                    joseph@thecrpc.com
+                  </a>
                 </p>
               </div>
             </div>

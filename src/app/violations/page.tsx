@@ -26,20 +26,22 @@ const ViolationsPage = () => {
   return (
     <main className="min-h-screen bg-gray-50">
       {/* Hero Section */}
+      <section className="relative bg-gray-800 py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl">
+            Exposing Fakes
+          </h1>
+          <p className="mt-4 max-w-3xl mx-auto text-xl text-gray-300">
+            Identifying ink and toner cartridge brands that falsely label their products as &quot;remanufactured&quot; or make misleading claims about their recyclability.
+          </p>
+        </div>
+      </section>
+
+      {/* Description Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-              Exposing Fakes
-            </h1>
-          </div>
-          
-          <div className="mt-8 max-w-3xl mx-auto">
+          <div className="max-w-3xl mx-auto">
             <p className="text-xl text-gray-600 leading-relaxed">
-              The CRPC Certified Remanufactured Printer Cartridge program is committed to identifying ink and toner cartridge brands that falsely label their products as &quot;remanufactured&quot; or make misleading claims about their recyclability.
-            </p>
-            
-            <p className="mt-4 text-xl text-gray-600 leading-relaxed">
               Generic printer cartridges are new built products designed to be compatible with original equipment manufacturer (OEM) printers. These cartridges are not recycled by printer cartridge remanufacturers. If marketed as remanufactured or feature environmental claims—like the chasing arrows recycling logo—despite not meeting those standards, they will be listed here.
             </p>
 
@@ -60,6 +62,11 @@ const ViolationsPage = () => {
           <h2 className="text-3xl font-bold text-gray-900 mb-8">
             Documented Violations
           </h2>
+          <div className="mb-8 p-4 bg-gray-50 border border-gray-200 rounded-lg">
+            <p className="text-gray-600">
+              Search functionality coming soon. We are developing a feature to help you easily find and verify cartridge brands.
+            </p>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {fakeCartridges.map((fake) => (
               <div 

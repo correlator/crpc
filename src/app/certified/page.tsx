@@ -79,14 +79,42 @@ export default function CertifiedPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose prose-lg mx-auto text-gray-700">
             <h2 className="text-gray-900 text-2xl font-bold text-center mb-6">Certification Process</h2>
-            <p>
-              Our comprehensive certification process includes:
-            </p>
-            <ul className="list-disc pl-5">
-              <li>Site verification of how used OEM printer cartridges are obtained</li>
-              <li>Verification of the remanufacturing production facility</li>
-              <li>Verification of a recycling &quot;Take Back Program&quot; to reduce landfill waste</li>
-            </ul>
+            <div className="text-center mb-8">
+              <a
+                href="https://form.jotform.com/250728046535155"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-slate-700 hover:bg-slate-800 md:py-4 md:text-lg md:px-10"
+              >
+                Apply Here
+              </a>
+            </div>
+            <div className="space-y-6">
+              <div>
+                <h3 className="text-xl font-semibold text-gray-900">Application and Verification</h3>
+                <p>
+                  The certification process begins with an application describing your remanufacturing business. A CRPC member will review your application, verify the information provided, and schedule a time for site verification.
+                </p>
+              </div>
+              
+              <div>
+                <h3 className="text-xl font-semibold text-gray-900">Site Verification and Certification</h3>
+                <p>
+                  A deposit is required before the site verification. A CRPC member will visit your remanufacturing facility to confirm your remanufacturing processes. Upon successful verification, you'll complete your payment to receive your certification, badge, and unique badge number.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-semibold text-gray-900">Post-Certification</h3>
+                <ul className="list-disc pl-5 space-y-2">
+                  <li>Display the CRPC badge on your packaging to distinguish your products as certified remanufactured printer cartridges</li>
+                  <li>The CRPC actively monitors online and physical marketplaces, purchasing cartridges marketed as remanufactured</li>
+                  <li>The CRPC may send cartridges to your facility for inspection to verify if they are single-use or remanufactured</li>
+                  <li>The CRPC may ask if you sold products to distributors using your badge number</li>
+                  <li>Findings from monitoring and inspections will be posted on the CRPC website and reported to relevant marketplaces and governing bodies</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
