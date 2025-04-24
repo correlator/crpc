@@ -100,7 +100,7 @@ export default function CertifiedPage() {
               <div>
                 <h3 className="text-xl font-semibold text-gray-900">Site Verification and Certification</h3>
                 <p>
-                  A deposit is required before the site verification. A CRPC member will visit your remanufacturing facility to confirm your remanufacturing processes. Upon successful verification, you'll complete your payment to receive your certification, badge, and unique badge number.
+                  A deposit is required before the site verification. A CRPC member will visit your remanufacturing facility to confirm your remanufacturing processes. Upon successful verification, you&apos;ll complete your payment to receive your certification, badge, and unique badge number.
                 </p>
               </div>
 
