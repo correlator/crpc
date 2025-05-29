@@ -12,7 +12,7 @@ const EbayAdventurePost = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="prose prose-lg lg:prose-xl mx-auto text-gray-700">
           <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl text-center mb-12">
-            The Murky Waters of &quot;Remanufactured&quot; Cartridges: An eBay Adventure
+            The Murky Waters of &quot;Remanufactured&quot; Cartridges: An eBay Adventure (Part 1)
           </h1>
 
           <p className="lead">
