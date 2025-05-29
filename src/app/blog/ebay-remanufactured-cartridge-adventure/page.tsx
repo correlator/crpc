@@ -16,7 +16,7 @@ const EbayAdventurePost = () => {
           </h1>
 
           <p className="lead">
-            I wanted to do the right thing for the environment and save some money. So, I turned to eBay to find remanufactured printer cartridges. What I received, however, was a lesson in misleading labeling and the very problem the CRPC is working to solve.
+            I wanted to do the right thing for the environment and save some money. So, I turned to eBay to order the cheapest remanufactured printer cartridges they had. What I received, however, was a lesson in misleading labeling and the very problem the CRPC is working to solve.
           </p>
 
           <h2 className="text-2xl font-bold mt-12 mb-6">The First Purchase: Hope and Disappointment</h2>
