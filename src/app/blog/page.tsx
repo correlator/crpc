@@ -1,9 +1,8 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 export const metadata = {
-  title: 'Blog - CRPC',
-  description: 'Latest articles, research, and news from the Certified Remanufactured Printer Cartridge program.',
+  title: 'CRPC Blog - Insights on Printer Cartridge Remanufacturing',
+  description: 'Read the latest news, insights, and articles from CRPC on printer cartridge remanufacturing, sustainability, and industry best practices.',
 };
 
 interface BlogPost {
@@ -16,10 +15,10 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
-    slug: 'eight_dollar_mistake',
-    title: 'The $8 Mistake That Cost Me My Sanity — And a Whole Lot More',
-    description: 'A cautionary tale about the true cost of counterfeit printer cartridges and why choosing certified remanufactured matters.',
-    date: 'March 21, 2024',
+    slug: 'ebay-remanufactured-cartridge-adventure',
+    title: 'The Murky Waters of "Remanufactured" Cartridges: An eBay Adventure',
+    description: 'A firsthand account of purchasing "remanufactured" printer cartridges on eBay and the misleading labeling encountered.',
+    date: 'October 26, 2023',
     image: '/images/printer_says_no.jpg',
   },
   {
@@ -39,66 +38,43 @@ const blogPosts: BlogPost[] = [
   // You can add more blog posts here as they're created
 ];
 
-export default function BlogPage() {
+const BlogIndexPage = () => {
   return (
-    <div className="bg-white">
-      {/* Hero section */}
-      <div className="relative bg-gray-800 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl">
-            Blog
+    <div className="bg-white py-12 sm:py-16">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12">
+          <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
+            CRPC Blog
           </h1>
-          <p className="mt-4 max-w-3xl mx-auto text-xl text-gray-300">
-            Latest insights from the CRPC
+          <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-500">
+            Insights, news, and updates on genuine printer cartridge remanufacturing.
           </p>
         </div>
-      </div>
 
-      {/* Blog listing */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
+        <div className="space-y-12">
           {blogPosts.map((post) => (
-            <Link 
-              href={`/blog/${post.slug}`} 
-              key={post.slug}
-              className="flex flex-col rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105 hover:shadow-xl"
-            >
-              <div className="flex-shrink-0">
-                {post.image && (
-                  <div className="h-48 w-full relative">
-                    <Image
-                      src={post.image}
-                      alt={post.title}
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                )}
-              </div>
-              <div className="flex-1 bg-white p-6 flex flex-col justify-between">
-                <div className="flex-1">
-                  <p className="text-sm font-medium text-indigo-600">
-                    {post.date}
-                  </p>
-                  <div className="block mt-2">
-                    <h3 className="text-xl font-semibold text-gray-900">
-                      {post.title}
-                    </h3>
-                    <p className="mt-3 text-base text-gray-500">
-                      {post.description}
-                    </p>
-                  </div>
-                </div>
-                <div className="mt-6">
-                  <p className="text-base font-semibold text-indigo-600 hover:text-indigo-500">
-                    Read more →
-                  </p>
-                </div>
-              </div>
-            </Link>
+            <article key={post.slug} className="p-6 bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+              <h2 className="text-2xl font-bold text-gray-900 mb-2">
+                <Link href={`/blog/${post.slug}`} className="hover:text-slate-700">
+                  {post.title}
+                </Link>
+              </h2>
+              <p className="text-sm text-gray-500 mb-3">{post.date}</p>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                {post.description}
+              </p>
+              <Link href={`/blog/${post.slug}`} className="inline-flex items-center font-semibold text-slate-700 hover:text-slate-900">
+                Read more &rarr;
+              </Link>
+            </article>
           ))}
+          {blogPosts.length === 0 && (
+            <p className="text-center text-gray-500">No blog posts yet. Check back soon!</p>
+          )}
         </div>
       </div>
     </div>
   );
-} 
+};
+
+export default BlogIndexPage; 
