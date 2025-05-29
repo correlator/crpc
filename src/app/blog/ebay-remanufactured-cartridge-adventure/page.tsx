@@ -21,7 +21,7 @@ const EbayAdventurePost = () => {
 
           <h2 className="text-2xl font-bold mt-12 mb-6">The First Purchase: Hope and Disappointment</h2>
           <p>
-            My first purchase was for a set of <strong>67XL Ink Cartridges for HP printers</strong> (Deskjet 2700e, 2755e, 2800e, 4155e, Envy 6000, 6055e). I bought these from the seller <Link href="https://www.ebay.com/str/greenskylifestyle?_trksid=p4429486.m3561.l161211" target="_blank" rel="noopener noreferrer" className="text-slate-700 hover:text-slate-900">greensky-lifestyle</Link> via this <Link href="https://www.ebay.com/itm/196517749552?var=496296112621" target="_blank" rel="noopener noreferrer" className="text-slate-700 hover:text-slate-900">eBay listing</Link> (archived <Link href="https://archive.ph/sYeJ2" target="_blank" rel="noopener noreferrer" className="text-slate-700 hover:text-slate-900">here</Link>).
+            First I purchased a $19 set of <strong>67XL Ink Cartridges for HP printers</strong> (Deskjet 2700e, 2755e, 2800e, 4155e, Envy 6000, 6055e). I bought these from the seller <Link href="https://www.ebay.com/str/greenskylifestyle?_trksid=p4429486.m3561.l161211" target="_blank" rel="noopener noreferrer" className="text-slate-700 hover:text-slate-900">greensky-lifestyle</Link> via this <Link href="https://www.ebay.com/itm/196517749552?var=496296112621" target="_blank" rel="noopener noreferrer" className="text-slate-700 hover:text-slate-900">eBay listing</Link> (archived <Link href="https://archive.ph/sYeJ2" target="_blank" rel="noopener noreferrer" className="text-slate-700 hover:text-slate-900">here</Link>).
           </p>
           <p>
             While some user comments on the listing mentioned &quot;remanufactured,&quot; one can never be too sure if such comments are genuine. The cartridges arrived with no original box, but the container they came in did state &quot;remanufactured.&quot; This initially seemed promising.
@@ -29,7 +29,7 @@ const EbayAdventurePost = () => {
 
           <h3 className="text-xl font-semibold mt-8 mb-4">A Familiar Foe: The Third Purchase</h3>
           <p>
-            Adding to the complexity, I also purchased what appeared to be the same <strong>67XL Ink Cartridges for HP printers</strong> (Deskjet 2700, 2755e, 4100e, 4155e, Envy 6000, 6452e) from a different seller, <Link href="https://www.ebay.com/str/uhelpmate?_trksid=p4429486.m3561.l161211" target="_blank" rel="noopener noreferrer" className="text-slate-700 hover:text-slate-900">UhelpMate</Link>, via this <Link href="https://www.ebay.com/itm/405780574713?var=676073274065" target="_blank" rel="noopener noreferrer" className="text-slate-700 hover:text-slate-900">eBay listing</Link> (archived <Link href="https://archive.ph/YdPmM" target="_blank" rel="noopener noreferrer" className="text-slate-700 hover:text-slate-900">here</Link>).
+            Adding to the complexity, I purchased what appeared to be the same <strong>67XL Ink Cartridges for HP printers</strong> (Deskjet 2700, 2755e, 4100e, 4155e, Envy 6000, 6452e) from a different seller also for $19 <Link href="https://www.ebay.com/str/uhelpmate?_trksid=p4429486.m3561.l161211" target="_blank" rel="noopener noreferrer" className="text-slate-700 hover:text-slate-900">UhelpMate</Link>, via this <Link href="https://www.ebay.com/itm/405780574713?var=676073274065" target="_blank" rel="noopener noreferrer" className="text-slate-700 hover:text-slate-900">eBay listing</Link> (archived <Link href="https://archive.ph/YdPmM" target="_blank" rel="noopener noreferrer" className="text-slate-700 hover:text-slate-900">here</Link>).
           </p>
           <p>
             Interestingly, the product received from UhelpMate was identical in appearance and packaging (or lack thereof) to the one from greensky-lifestyle. This discovery raises further questions about the supply chain and the true origin of these cartridges being marketed by different sellers under the guise of &quot;remanufactured.&quot;
@@ -162,7 +162,7 @@ const EbayAdventurePost = () => {
             This isn&apos;t just an individual consumer problem. Procurement officers in businesses and government agencies across the country face this dilemma daily. They are tasked with making sustainable choices, often with tight budgets, and are susceptible to the same misleading practices.
           </p>
           <p>
-            This is precisely the challenge the <strong>Certified Remanufactured Printer Cartridge (CRPC)</strong> program is designed to address. By providing a clear, verifiable badge, CRPC helps consumers and large-scale buyers confidently identify genuinely remanufactured cartridges, ensuring they are truly supporting sustainable practices and not falling victim to false labeling.
+            This is precisely the challenge the <strong>Certified Remanufactured Printer Cartridge (CRPC)</strong> program is designed to address. We are shining a spotlight on the supply chain for remanufactured cartridges, ensuring consumers who are truly supporting sustainable practices are not falling victim to false labeling.
           </p>
 
           <div className="mt-12 text-center">
