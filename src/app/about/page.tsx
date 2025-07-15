@@ -73,8 +73,8 @@ export default function AboutPage() {
               To receive CRPC certification, remanufacturers must demonstrate that their products are genuinely remanufactured from used cartridges:
             </p>
             <ul className="text-gray-900 list-disc pl-5">
-              <li>Site verification of of how OEM cartridges are obtained</li>
-              <li>Site verification of Refmanufacturing production facility</li>
+              <li>Site verification of how OEM cartridges are obtained</li>
+              <li>Site verification of Remanufacturing production facility</li>
               <li>Verification of a recycling &quot;Take Back Program&quot; to help reduce used printer cartridges in landfills</li>
             </ul>
           </div>
